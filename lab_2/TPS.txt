@@ -1,0 +1,33 @@
+TPS 1
+1) Agustin Torres
+
+TPS 2
+1) gcc -g punishment.c -o punish
+2) gdb punish
+3) r
+4) A breakpoint is a point in the code that the execution stops so that you can continue to debug it during runtime. b <line of code or function name>. 
+5) s
+6) print <var name>
+7) c
+8) q
+
+TPS 3
+1) 4, px and py are pointers
+2) their values will be garbage
+3) initialize the variables
+4) printf(&x, &y)
+5) px = x, py = y;, printf(&px ,&py)
+
+Assignment 1
+1) line 23
+2) put an & before input on line 15
+3) the values of values and sum are not returned when read_values finishes, so they remain 0 and give the average as 0
+4) the way to fix the bug is to define a struct with values and sum, then change read_values to type struct
+
+Assignment 2
+1) yes, it prints "HELLO!hello!".
+2) no, it prints "HI!hi!hello!". The bug is that the program doesn't delete the string before going through the loop again.
+3) no, it prints "thank you!I am fine, thank you!". This occurs due to the gets() function. str1 and str2 are only 10 characters long, but gets() doesn't check length. 
+
+Assigment 3
+1} 

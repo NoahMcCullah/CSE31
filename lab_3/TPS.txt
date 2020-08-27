@@ -1,0 +1,19 @@
+Noah McCullah
+Lab 3
+
+Collaborator: Agustin Torres
+
+TPS 1
+1) stack: local variables
+   heap: pointers to allocated memory
+   static: variables declared outside main
+2)  a. 3
+	b. 2, ptr points to an integer, handle pointa to the pointer ptr
+	c. the pointers are in the heap, but num is in the stack
+	d. ptr will still point to the stack, in line 12 it is moved to the heap
+	
+TPS 2
+3) The value of head is the address of the first item in Node, iValue. 
+
+ACT 1
+1) So that the pointer array in bubbleSort is the same size as the passed array

@@ -1,0 +1,16 @@
+TPS 1
+1) Text Segment: 0x00400000
+   Data Segment: 0x10010000
+2) Basic code is an interpreted form of the Source code. names of functions are replaced with the address of the named function.
+3) 0x20 bytes, 32 bytes
+4) 8 columns
+5) each row has starting address, each column adds 4 to the previous address in a pattern: +0, +4, +8, +c, +10, +14, +18, +1c
+6) m:	.word 20
+7) 0x10010004
+8) str1:	.aciiz	"I love CSE31"
+9) 0x10010008, 0x1001000c, 0x10010010
+10) yes
+12) $t3 will hold the address of n
+
+TPS 2
+1) every inequality can be made suing slt, beq, and bne, using a smaller inventory of insrutions reduces the amount that needs to be interpreted.

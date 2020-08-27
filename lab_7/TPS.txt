@@ -1,0 +1,15 @@
+TPS 1
+1) In general, functions take inputs and return an output, procedures do not return an output, and methods are mostly functions attatched to classes in OO languages
+4) line 20, adds m and not
+5) Yes
+6) The line before SUM is called, the return address should be saved in $ra
+7) There is a counter error
+8) 0x00400020
+10) 0x00400020, 15
+11) jal
+
+TPS 2
+1) 28
+3) calling SUM with jal. Once SUB is called, the address returning to MAIN is replaced by the address returning to SUM
+5) It is replaced with the value of m, yes it is a problem
+6) 

@@ -1,0 +1,19 @@
+TPS 1
+1) 2
+2) 2
+3) 41414141
+4) It prints 2.
+5)
+	a) 1 array
+	b) Yes
+6) The addresses of four_ints are separated by four bytes. They exist in consecutive memory spaces in chunks of four bytes due to the size of integers.
+8) 1 byte, a char is only 1 byte in size
+10) C adds 1 to the current address to find the next index
+
+TPS 2
+1) Line 8 declares a double pointer pointed to a dynamically allocated memory location
+2) increment arr by the ith value to get the next row
+4) We need to pass the size that way printArray works with multiple n values
+
+Assignment 1
+1) 

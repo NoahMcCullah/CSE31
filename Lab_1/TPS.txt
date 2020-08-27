@@ -1,0 +1,39 @@
+Act 1
+1) Partner: Agustin Torres
+
+Act 2
+1) 
+	a) Yes
+	b) allows you to use more than one program simultaneously
+2) ls
+3) cd Desktop
+4) mkdir CSE31
+6) cd CSE31
+   mkdir lab_1
+
+Act 3
+3) gcc main.c -o main
+4) ls -l main*
+5) -c is used to create libraries
+6) -g is used to debug
+7) use the -o flag to rename the .exe
+8) a .exe called a.out is created
+9) ./a.out
+
+Act 4
+	declare variables
+	
+	do {
+		ask user to input integer
+		assign user input to variable input
+		
+		if input > 0, add one to positiveCount and add input to positiveSum
+		
+		if input < 0, add one to negativeCount and add input to negativeSum
+		
+	} while(input != 0)
+	
+	positiveAverage = positiveSum / positiveCount
+	negativeAverage = negativeSum / negativeCount
+	
+	return(0)

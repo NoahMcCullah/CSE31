@@ -1,0 +1,12 @@
+TPS 1
+1) MIPS Assembler and Runtime Simulator
+2) 
+
+TPS 2
+1) .data stores data in memory, .word is the size of the pointer to the data, .text contains the instructions
+2) if finish returns 0, jump to subroutine finish
+3) jump back to line 10
+4) click the checkbox in the text segment of the execute window
+5) use the Run current program or Run one step at a time buttons
+6) Use the Registers window to see the values of the registers, which can be edited while the program runs
+7) n is stored at 268500992, 

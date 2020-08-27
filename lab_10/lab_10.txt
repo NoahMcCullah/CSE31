@@ -1,0 +1,43 @@
+TPS 1
+1) A component that stores data so that future requests for that data 
+	can be served faster
+4) 4 bits for offset, offset scales as the number of bits required to 
+	represent n-1 bytes of block size. 1 byte is not practical.
+	1	
+	2	1
+	4	2
+	8	3
+	16	4
+	32	5
+5) 6 bits are required to represent 64 blocks.  Index bits scale as the number
+	of bits required to represent n-1 blocks.
+6) Yes, multiply the block size by the number of blocks
+7) Remmaining bits are stored as the tag which are used to ensure the correct data is stored when called
+8) 
+	a) 1,048,575 addresses
+	b) 3 bits
+	c) 16 blocks
+	d) 4 bits
+	e) 16 bits
+	g) 50 bits
+	
+TPS 2
+1) Because blocks of main memory map to specific locations in cache, data could
+	be continually re-referenced and blocks swapped in and out, causing a lot
+	of inefficiency
+3) 8 index bits for 256 sets. you need enough index bits to represent n-1 sets of m blocks
+4) 
+	a) 1,048,575 addresses
+	b) 3 offset bits
+	c) 16 blocks
+	d) 8 sets
+	e) 3 index bits
+	f) 17 bits
+	h) 53 bits
+
+Assignemnt 1
+1) 4 caches, there is a separate L1 for data and instructions
+2) L1 is 32 KBytes, L2 is 256 KBytes, L3 is 8 MBytes
+3) The block size for all caches is 64-bytes
+4) L1 is 8-way set associative, L2 is 4-way set associative, and L3 is 16-way set associative
+5) 8 index bits, 6 offset bits, 56 tag bits
